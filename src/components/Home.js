@@ -50,7 +50,7 @@ const Home = () => {
 
           </div >
             
-          <a  data-aos="fade-down" data-aos-delay="400" href={CV}  className=' flex md:gap-x-0  items-center lg:w-[250px] max-sm:w-[100px] max-sm:border-none max-sm:bg-[#070707] md:w-[200px] lg:pl-6   border-solid border rounded-full sm:p-0.5 p-1 '>
+          <a  data-aos="fade-down" data-aos-delay="400" href={CV}  className=' flex md:gap-x-0  items-center lg:w-[250px] max-sm:w-[100px] max-sm:border-none max-sm:bg-[#070707] md:w-[200px] lg:pl-6   rounded-full sm:p-0.5 p-1 '>
           <img  className="md:pl-4" src={Arrow} alt="" /> 
           <h1  className='text-xl text-[#FFF] font-[PowerLight] md:pl-3 max-sm:pl-2 max-sm:pb-1 '>Resume</h1>
         </a>
