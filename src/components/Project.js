@@ -72,7 +72,7 @@ const Project = () => {
                     <div>
 
                         <div>
-                            <h1 className='text-9xl text-[#fff] font-[PowerRegular] xl:pt-72 max-lg:w-[350px] max-lg:text-8xl  max-xl:text-center max-sm:text-5xl max-sm:w-[400px] max-sm:pt-14' data-aos="fade-down" data-aos-delay="300" data-aos-once="true">{project.title}</h1>
+                            <h1 className='text-9xl text-[#fff] font-[PowerRegular] xl:pt-40 max-lg:w-[350px] max-lg:text-8xl  max-xl:text-center max-sm:text-5xl max-sm:w-[400px] max-sm:pt-14' data-aos="fade-down" data-aos-delay="300" data-aos-once="true">{project.title}</h1>
                         </div>
 
                         <div className='flex max-xl:flex-col xl:gap-x-16 max-xl:gap-8 max-xl:gap-y-2 max-xl:items-center'>
