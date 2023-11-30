@@ -34,7 +34,7 @@ const Home = () => {
     <div>
       <section className='sm:h-[400px] max-sm:h-[770px] md:h-[1000px] lg:h-[1000px] w-full bg-[#070707] '>
 
-        <section className='flex sm:py-8 max-sm:pt-4 sm:justify-between max-sm:gap-x-36 max-sm:px-4  container mx-auto '>
+        <section className='flex sm:py-8 max-sm:pt-4 sm:justify-between max-sm:gap-x-36 max-sm:px-4  container mx-auto max-xl:pl-12'>
 
           <div className='max-sm:pt-1' data-aos="fade-down" data-aos-delay="50"> 
               <h1  className='text-[#FFF] text-xl font-[PowerMedium]'>Noah Nemhed</h1>
@@ -48,8 +48,8 @@ const Home = () => {
 
         </section>
 
-        <section className='container mx-auto text-end lg:pr-2 md:pr-6 max-sm:hidden' data-aos="fade-down" data-aos-delay="600">
-          <div className='flex flex-col'>
+        <section className='container mx-auto text-end lg:pr-2 md:pr-6 max-sm:hidden ' data-aos="fade-down" data-aos-delay="600">
+          <div className='flex flex-col xl:pr-24'>
               <h1 className='text-sm text-[#a4a4a4] font-extralight [PowerUltraLight]'>Web Design, UX / UI</h1>
               <h1 className='text-sm text-[#a4a4a4] font-extralight [PowerUltraLight]'>Webflow</h1>
               <h1 className='text-sm text-[#a4a4a4] font-extralight [PowerUltraLight]'>Front End Development</h1>
@@ -58,7 +58,7 @@ const Home = () => {
 
         <section className='container mx-auto sm:py-32 max-sm:pt-16 max-sm:h-[845px]'>
 
-          <div data-aos="fade-up" data-aos-delay="700">
+          <div className='max-xl:pl-8' data-aos="fade-up" data-aos-delay="700">
             <h1 className='text-[#FFF]  md:text-8xl lg:text-[7.2rem] leading-[1] max-sm:text-5xl max-sm:text-left max-sm:pl-8 font-normal max-sm:w-[354px]'>Hi, I'm <span  className='text-[#2A00FF] md:text-8xl lg:text-9xl font-[PowerRegular]'>Noah.</span> <br></br>Junior developer.</h1>
             <section className='md:hidden max-sm:pl-10 pt-7' data-aos="fade-down" data-aos-delay="600">
             <div className='flex flex-col'>
@@ -93,7 +93,7 @@ const Home = () => {
 
       <section className='h-[780px] max-sm:h-[1050px] w-full bg-[#070707] max-sm:pl-10'>
 
-        <section className='container mx-auto'>
+        <section className='container mx-auto max-xl:pl-8'>
            <h1 className='text-[#fff] text-6xl font-[PowerRegular] max-sm:text-[32px] ' data-aos="fade-down" data-aos-delay="50" data-aos-once="true">What I do</h1>
         </section>
 
@@ -110,7 +110,7 @@ const Home = () => {
                 <img className="sm:hidden py-8"src={Vector2} alt='' />
               </div>
 
-              <div className='sm:flex max-sm:flex-colmd:py-28 ' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='sm:flex max-sm:flex-col md:py-28 ' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <img  className="max-sm:hidden"src={Vector} alt='' />
               <div className='flex flex-col sm:pl-12'>
                   <h1 className='text-[#5B5B5B] text-6xl md:pb-4 lg:pb-10 font-[PowerRegular] max-sm:text-[36px]'>02</h1>
@@ -136,7 +136,7 @@ const Home = () => {
 
       </section>
 
-      <section className='md:h-[800px] lg:h-[800px] max-sm:h-[780px] w-full bg-[#070707]'>
+      <section className='md:h-[800px] lg:h-[800px] max-sm:h-[780px] w-full bg-[#070707] max-xl:pl-8'>
 
         <section className='container mx-auto' >
           <div className='flex flex-col gap-12 max-sm:w-[350px] max-sm:pl-10'>
@@ -205,13 +205,13 @@ const Home = () => {
 
           <div className='lg:flex md:flex-col  justify-between container mx-auto max-sm:pl-6 '>
 
-            <div className='flex flex-col md:text-left max-sm:max-w-[300px]' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+            <div className='flex flex-col md:text-left max-sm:max-w-[300px] max-xl:pl-8' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
               <h1 className='md:text-5xl max-sm:text-4xl max-sm:text lg:text-6xl text-[#fff] font-[PowerRegular] max-sm:w-[330px] '>My way of getting <br></br>things done</h1>
               <h1 className=' max-sm:hidden text-xl font-[PowerUltraLight] text-[#d7d7d7]  max-sm:text-left py-12'>Fast and transparent, the path to owning a website that will <br></br> represent your brand in the best of light is only 4 weeks away. <br></br> Standing by the Waterfall methodology, I assure a step by step <br></br>completion of the whole process.</h1>
               <h1 className='sm:hidden text-xl font-[PowerUltraLight] text-[#d7d7d7] max-sm:max-w-[352px] max-sm:text-left py-6'>Fast and transparent, the path to owning a website  that will represent your brand in the best of light is only 4 weeks away. Standing by the Waterfall methodology, I assure a step by step completion of the whole process.</h1>
             </div>
 
-            <div className='flex flex-col gap-y-10 max-sm:w-[350px] max-sm:pt-8'>
+            <div className='flex flex-col gap-y-10 max-sm:w-[350px] max-sm:pt-8 max-xl:pl-8'>
 
               <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <div className='flex justify-between'>
@@ -263,7 +263,7 @@ const Home = () => {
       </section>
 
 
-      <section className='w-full md:h-[300px] lg:h-[500px] bg-[#070707]' >
+      <section className='w-full md:h-[500px] lg:h-[550px] bg-[#070707] max-xl:pl-8' >
         <div className='container mx-auto flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
 
           <div className='flex justify-between max-sm:flex-col max-sm:pl-6'>
