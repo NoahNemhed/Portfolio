@@ -62,7 +62,7 @@ const Project = () => {
           {project ? (
             <>
             <div className=' w-full bg-[#070707]'>
-                <section className='xl:h-[1000px] max-lg:h-[1000px] max-xl:h-[800px]  container mx-auto'>
+                <section className='xl:h-[1000px] max-lg:h-[1000px] max-xl:h-[800px] max-sm:h-[850px]  container mx-auto'>
                     <div className='flex justify-between py-10'>
                         <button className='text-xl text-[#777] font-[PowerLight]' onClick={() => navigate(`/`)}>Back Home</button>
                         <button className='text-xl text-[#777] font-[PowerLight] flex gap-4' onClick={() => navigate(`/project/${projectIds[nextProjectIndex]}`)}>Next Project <img src={Arrow3} alt="" className='py-1 '/></button>
@@ -72,12 +72,12 @@ const Project = () => {
                     <div>
 
                         <div>
-                            <h1 className='text-9xl text-[#fff] font-[PowerRegular] xl:pt-72 max-lg:w-[350px] max-lg:text-8xl  max-xl:text-center' data-aos="fade-down" data-aos-delay="300" data-aos-once="true">{project.title}</h1>
+                            <h1 className='text-9xl text-[#fff] font-[PowerRegular] xl:pt-72 max-lg:w-[350px] max-lg:text-8xl  max-xl:text-center max-sm:text-5xl max-sm:w-[400px] max-sm:pt-14' data-aos="fade-down" data-aos-delay="300" data-aos-once="true">{project.title}</h1>
                         </div>
 
                         <div className='flex max-xl:flex-col xl:gap-x-16 max-xl:gap-8 max-xl:gap-y-2 max-xl:items-center'>
-                            <h1 className='text-2xl text-[#d6d6d6] font-[PowerUltraLight] max-w-[600px] xl:w-[38rem] pt-16 max-lg:text-base max-sm:text-center' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">  {project.description}</h1>
-                            <div className='flex-col md:gap-y-28 xl:py-16 max-lg:pt-20 xl:w-[36rem] max-sm:items-center'>
+                            <h1 className='text-2xl text-[#d6d6d6] font-[PowerUltraLight] max-w-[600px] xl:w-[38rem] pt-16 max-lg:text-base max-sm:text-center max-sm:w-[350px] ' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">  {project.description}</h1>
+                            <div className='flex-col md:gap-y-28 xl:py-16 max-lg:pt-20 xl:w-[36rem] max-sm:items-center max-sm:pt-12'>
                                 <div className='flex-col'>
                                     <div className='flex xl:pt-12 max-sm:flex-col xl:gap-x-64 max-lg:gap-x-24 max-xl:gap-x-24 max-xl:justify-center max-xl:text-left max-sm:text-center'>
                                     <h1 className='text-[#fff] text-2xl font-[PowerRegular]' data-aos="fade-left" data-aos-delay="500" data-aos-once="true">Year</h1>
