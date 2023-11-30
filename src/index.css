@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PowerUltraLight';
+  src: url('./assets/Font/PowerGroteskTrial-UltraLight.woff2') format('woff2'),
+       url('./assets/Font/PowerGroteskTrial-UltraLight.woff') format('woff'),
+       url('./assets/Font/PowerGroteskTrial-UltraLight.ttf') format('truetype'),
+       url('./assets/Font/PowerGroteskTrial-Light.otf') format('otf');
+       font-weight: 100;
+       font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+@font-face {
+  font-family: 'PowerLight';
+  src: url('./assets/Font/PowerGroteskTrial-Light.woff2') format('woff2'),
+       url('./assets/Font/PowerGroteskTrial-Light.woff') format('woff'),
+       url('./assets/Font/PowerGroteskTrial-Light.ttf') format('truetype'),
+       url('./assets/Font/PowerGroteskTrial-Light.otf') format('otf');
+       font-weight: 200;
+       font-display: swap;
+}
+  
+  @font-face {
+    font-family: 'PowerRegular';
+    src: url('./assets/Font/PowerGroteskTrial-Regular.woff2') format('woff2'),
+         url('./assets/Font/PowerGroteskTrial-Regular.woff') format('woff'),
+         url('./assets/Font/PowerGroteskTrial-Regular.ttf') format('truetype'),
+         url('./assets/Font/PowerGroteskTrial-Regular.otf') format('otf');
+         font-weight: 400;
+         font-display: swap;
+  }
+  /* ../fonts/ClashDisplay-Regular.woff2*/
+  
+  @font-face {
+    font-family: 'PowerMedium';
+    src: url('./assets/Font/PowerGroteskTrial-Medium.woff2') format('woff2'),
+         url('./assets/Font/PowerGroteskTrial-Medium.woff') format('woff'),
+         url('./assets/Font/PowerGroteskTrial-Medium.ttf') format('truetype'),
+         url('./assets/Font/PowerGroteskTrial-Medium.otf') format('otf');
+         font-weight: 600;
+         font-display: swap;
+  }
+
+  .button-container {
+
+  }
+  
+  .button-container:hover .arrow {
+    transform: translateX(10px);
+    transition: transform 0.3s;
+  }
+  
+  .text {
+    color: #fff;
+  }
+
+
+html {
+  scroll-behavior: smooth;
 }
