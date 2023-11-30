@@ -72,7 +72,7 @@ const Home = () => {
           </div>
 
           <div className='flex items-center justify-between' data-aos="fade-up" data-aos-delay="800">
-          <a href="mailto:noahnemhed@hotmail.com" className='hero-button w-[265px] max-sm:w-[215px] max-sm:text-sm max-sm:text-center pr-4 items-center bg-white border-solid border max-sm:pl-8 max-sm: ml-6  flex flex-row-reverse sm:py-3 max-sm:py-2 md:my-4 md:gap-x-4 rounded-full font-[PowerRegular]'><img className='hero-btn-arrow max-sm:w-4 max-sm:mr-2' src={Arrow2} alt="" /> <h1 className='text-[#070707] text-lg max-sm:text-[14px] sm:pr-6 max-sm:pr-6'>Let's have a chat</h1></a>
+          <a href="mailto:noahnemhed@hotmail.com" className='hero-button w-[265px] max-sm:w-[215px] max-sm:text-sm max-sm:text-center pr-4 items-center bg-white border-solid border max-sm:pl-8 max-sm:ml-16  flex flex-row-reverse sm:py-3 max-sm:py-2 md:my-4 md:gap-x-4 rounded-full font-[PowerRegular]'><img className='hero-btn-arrow max-sm:w-4 max-sm:mr-2' src={Arrow2} alt="" /> <h1 className='text-[#070707] text-lg max-sm:text-[14px] sm:pr-6 max-sm:pr-6'>Let's have a chat</h1></a>
 
           <div className='flex flex-col md:pr-4 max-sm:hidden' data-aos="fade-up" data-aos-delay="900" >
             <h1 className='text-[#777777] text-xl font-[PowerLight]'>Connect with me</h1>
@@ -139,7 +139,7 @@ const Home = () => {
       <section className='md:h-[800px] lg:h-[800px] max-sm:h-[780px] w-full bg-[#070707] max-xl:pl-8'>
 
         <section className='container mx-auto' >
-          <div className='flex flex-col gap-12 max-sm:w-[350px] max-sm:pl-10'>
+          <div className='flex flex-col gap-12 max-sm:w-[350px] max-sm:pl-0'>
             <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
                     <div className='flex justify-between items-center'>
                     <h1 className='text-[#fff] text-6xl font-[PowerRegular]'>Selected projects</h1>
@@ -203,7 +203,7 @@ const Home = () => {
 
       <section className='w-full md:min-h-[1000px] lg:min-h-[1200px] bg-[#070707] py-40 max-sm:w-[390px]'>
 
-          <div className='lg:flex md:flex-col  justify-between container mx-auto max-sm:pl-6 '>
+          <div className='lg:flex md:flex-col  justify-between container mx-auto max-sm:pl-0 '>
 
             <div className='flex flex-col md:text-left max-sm:max-w-[300px] max-xl:pl-8' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
               <h1 className='md:text-5xl max-sm:text-4xl max-sm:text lg:text-6xl text-[#fff] font-[PowerRegular] max-sm:w-[330px] '>My way of getting <br></br>things done</h1>
@@ -266,7 +266,7 @@ const Home = () => {
       <section className='w-full md:h-[500px] lg:h-[550px] bg-[#070707] max-xl:pl-8' >
         <div className='container mx-auto flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
 
-          <div className='flex justify-between max-sm:flex-col max-sm:pl-6'>
+          <div className='flex justify-between max-sm:flex-col max-sm:pl-0'>
             <h1 className='sm:max:text-2xl text-6xl text-[#fff] font-[PowerRegular] max-sm:text-3xl max-sm:pt-16' >Let's talk about a <br></br>project, collaboration or <br></br>an idea you may have</h1>
             <div className='flex items-end max-sm:pt-8'>
             <a href="mailto:noahnemhed@hotmail.com" className='button-container flex gap-x-4 items-center w-[214px] sm:h-[50px] pl-6 max-sm:pl-8 bg-[#2A00FF] rounded-full p-2 self-end'> <h1 className='text-lg text-[#FFF] font-[PowerLight] '>Get in touch</h1> <img src={Arrow3} alt=""  className='arrow sm:pl-6 max-sm:w-3 max-sm:pt-1 h-[23px] text-[#fff]' /></a>
