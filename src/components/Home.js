@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom';
 import CV from '../assets/Images/CVENG.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Logo from '../assets/Images/N.png'
+
 const Home = () => {
 
   const [showText, setShowText] = useState([false, false, false, false]);
@@ -39,16 +39,6 @@ const Home = () => {
           <div className='max-sm:pt-1' data-aos="fade-down" data-aos-delay="50"> 
               <h1  className='text-[#FFF] text-xl font-[PowerMedium]'>Noah Nemhed</h1>
           </div>
-          
-          <div className='flex gap-x-24 hidden' >
-
-            <a data-aos="fade-down" data-aos-delay="100" href="" className='text-lg text-[#FFF] font-[PowerLight]'>About</a>
-
-            <a data-aos="fade-down" data-aos-delay="200" href="" className='text-lg text-[#FFF] font-[PowerLight]'>Work</a>
-
-            <a data-aos="fade-down" data-aos-delay="300" href="" className='text-lg text-[#FFF] font-[PowerLight]'>Contact</a>
-
-          </div >
             
           <a  data-aos="fade-down" data-aos-delay="400" href={CV}  className=' flex md:gap-x-0  items-center lg:w-[250px] max-sm:w-[100px] max-sm:border-none max-sm:bg-[#070707] md:w-[200px] lg:pl-6   rounded-full sm:p-0.5 p-1 '>
           <img  className="md:pl-4" src={Arrow} alt="" /> 
