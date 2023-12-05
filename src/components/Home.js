@@ -94,11 +94,11 @@ const Home = () => {
       <section className='h-[780px] max-sm:h-[1050px] w-full bg-[#070707] max-sm:pl-10'>
 
         <section className='container mx-auto max-xl:pl-8'>
-           <h1 className='text-[#fff] text-6xl font-[PowerRegular] max-sm:text-[32px] ' data-aos="fade-down" data-aos-delay="50" data-aos-once="true">What I do</h1>
+           <h1 className='text-[#fff] text-6xl font-[PowerRegular] max-sm:text-[32px] ' >What I do</h1>
         </section>
 
         <section className='container mx-auto flex max-sm:flex-col justify-between max-sm:pt-12'>
-              <div className='sm:flex max-sm:flex-col md:py-28 ' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='sm:flex max-sm:flex-col md:py-28 '>
                 <img  className="max-sm:hidden"src={Vector} alt='' />
               <div className='flex flex-col sm:pl-12'>
                   <h1 className='text-[#5B5B5B] text-6xl md:pb-4 lg:pb-10 font-[PowerRegular] max-sm:text-[36px]'>01</h1>
@@ -110,7 +110,7 @@ const Home = () => {
                 <img className="sm:hidden py-8"src={Vector2} alt='' />
               </div>
 
-              <div className='sm:flex max-sm:flex-col md:py-28 ' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='sm:flex max-sm:flex-col md:py-28 '>
                 <img  className="max-sm:hidden"src={Vector} alt='' />
               <div className='flex flex-col sm:pl-12'>
                   <h1 className='text-[#5B5B5B] text-6xl md:pb-4 lg:pb-10 font-[PowerRegular] max-sm:text-[36px]'>02</h1>
@@ -120,7 +120,7 @@ const Home = () => {
               <img className="sm:hidden py-8"src={Vector2} alt='' />
               </div>
 
-              <div className='sm:flex max-sm:flex-col md:py-28 ' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='sm:flex max-sm:flex-col md:py-28 ' >
                 <img  className="max-sm:hidden"src={Vector} alt='' />
               <div className='flex flex-col sm:pl-12'>
                   <h1 className='text-[#5B5B5B] text-6xl md:pb-4 lg:pb-10 font-[PowerRegular] max-sm:text-[36px]'>03</h1>
@@ -140,7 +140,7 @@ const Home = () => {
 
         <section className='container mx-auto' >
           <div className='flex flex-col gap-12 max-sm:w-[350px] max-sm:pl-0'>
-            <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
+            <div className='flex flex-col' >
                     <div className='flex justify-between items-center'>
                     <h1 className='text-[#fff] text-6xl font-[PowerRegular]'>Selected projects</h1>
                     <div className='hidden md:lg:block'>
@@ -152,7 +152,7 @@ const Home = () => {
 
               </div>
 
-              <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='flex flex-col'>
                     <div className='flex justify-between items-center'>
                       <div className='flex flex-col'>
                        <h1 className='text-[#fff] text-6xl max-sm:text-[40px] font-[PowerRegular]'>Tunder</h1>
@@ -168,7 +168,7 @@ const Home = () => {
 
               </div>
 
-              <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
+              <div className='flex flex-col'  >
                     <div className='flex justify-between items-center'>
                       <div className='flex flex-col'>
                        <h1 className='text-[#fff] text-6xl max-sm:text-[40px] font-[PowerRegular]'>Face recognition</h1>
@@ -185,7 +185,7 @@ const Home = () => {
               </div>
 
  
-            <div className='flex flex-col max-sm:w-400px' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
+            <div className='flex flex-col max-sm:w-400px' >
               <h1 className='text-[#fff] text-3xl font-[PowerRegular] max-sm:text-xl'>Let me tell you all about them.</h1>
               <h1 className='text-[#b6b6b6] text-xl font-[PowerUltraLight] py-3 max-sm:flex max-sm:text-base max-sm:gap-x-4'>Reach out to me at <span className='text-[#2A00FF]'>noahnemhed@hotmail.com</span> </h1>
 
@@ -205,7 +205,7 @@ const Home = () => {
 
           <div className='lg:flex md:flex-col  justify-between container mx-auto max-sm:pl-0 '>
 
-            <div className='flex flex-col md:text-left max-sm:max-w-[300px] max-xl:pl-8' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+            <div className='flex flex-col md:text-left max-sm:max-w-[300px] max-xl:pl-8' >
               <h1 className='md:text-5xl max-sm:text-4xl max-sm:text lg:text-6xl text-[#fff] font-[PowerRegular] max-sm:w-[330px] '>My way of getting <br></br>things done</h1>
               <h1 className=' max-sm:hidden text-xl font-[PowerUltraLight] text-[#d7d7d7]  max-sm:text-left py-12'>Fast and transparent, the path to owning a website that will <br></br> represent your brand in the best of light is only 4 weeks away. <br></br> Standing by the Waterfall methodology, I assure a step by step <br></br>completion of the whole process.</h1>
               <h1 className='sm:hidden text-xl font-[PowerUltraLight] text-[#d7d7d7] max-sm:max-w-[352px] max-sm:text-left py-6'>Fast and transparent, the path to owning a website  that will represent your brand in the best of light is only 4 weeks away. Standing by the Waterfall methodology, I assure a step by step completion of the whole process.</h1>
@@ -213,7 +213,7 @@ const Home = () => {
 
             <div className='flex flex-col gap-y-10 max-sm:w-[350px] max-sm:pt-8 max-xl:pl-8'>
 
-              <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='flex flex-col' >
                 <div className='flex justify-between'>
                     <div>
                       <h1 className='text-3xl text-[#fff] font-[PowerLight] max-sm:text-[18px]'>01. UX/Wireframing</h1>
@@ -224,7 +224,7 @@ const Home = () => {
                 {showText[0] && <div className='text-lg xl:text-xl text-[#d1d1d1] font-[PowerUltraLight] max-w-[545px] xl:max-w-[1000px]   py-2 font-extralight max-sm:text-[16px]'>In the initial phase of crafting your website, we embark on the UI/UX design journey. This pivotal step involves a collaborative process, where I work closely with you to understand your brand identity, target audience, and design preferences. Through thorough research and analysis, I create intuitive and visually engaging user interfaces that prioritize a seamless user experience. Regular feedback sessions ensure that the design aligns seamlessly with your vision, resulting in a tailored and aesthetically pleasing website that resonates with your audience.</div>}
               </div>
 
-              <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='flex flex-col' >
                 <div className='flex justify-between'>
                     <div>
                       <h1 className='text-3xl text-[#fff] font-[PowerLight] max-sm:text-[18px]'>02. Web Design</h1>
@@ -235,7 +235,7 @@ const Home = () => {
                 {showText[1] && <div className='text-lg xl:text-xl text-[#d1d1d1] font-[PowerUltraLight] max-w-[545px] xl:max-w-[1000px]  py-2 font-extralight max-sm:text-[16px]'>Following the UI/UX design phase, we seamlessly transition into web design. With the insights gathered from our collaborative design process, I translate the approved visual elements into a fully functional and responsive website. Employing the latest web design principles, I focus on creating an interface that not only captivates visitors visually but also prioritizes accessibility and user-friendly navigation. This stage ensures that your website not only looks impressive but also performs optimally across various devices, delivering a cohesive and engaging online experience.</div>}
               </div>
 
-              <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='flex flex-col' >
                 <div className='flex justify-between'>
                     <div>
                       <h1 className='text-3xl text-[#fff] font-[PowerLight] max-sm:text-[18px]'>03. Web Development</h1>
@@ -246,7 +246,7 @@ const Home = () => {
                 {showText[2] && <div className='text-lg xl:text-xl text-[#d1d1d1] font-[PowerUltraLight] max-w-[545px] xl:max-w-[1000px]  py-2 font-extralight max-sm:text-[16px]'>Upon finalizing the web design, we seamlessly progress to the web development phase. Using cutting-edge technologies and coding practices, I bring the envisioned design to life, creating a robust and functional website. This stage involves meticulous coding, database integration, and implementation of any desired functionalities. Throughout the web development process, I prioritize clean code, performance optimization, and responsiveness, ensuring that your website functions seamlessly across different platforms. Regular updates and collaboration guarantee that the development aligns with your expectations and business objectives.</div>}
               </div>
 
-              <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+              <div className='flex flex-col'>
                 <div className='flex justify-between'>
                     <div>
                       <h1 className='text-3xl text-[#fff] font-[PowerLight] max-sm:text-[18px]'>04. Analytics Setup / Support</h1>
@@ -264,7 +264,7 @@ const Home = () => {
 
 
       <section className='w-full md:h-[500px] lg:h-[550px] bg-[#070707] max-xl:pl-8' >
-        <div className='container mx-auto flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-once="true" >
+        <div className='container mx-auto flex flex-col' >
 
           <div className='flex justify-between max-sm:flex-col max-sm:pl-0'>
             <h1 className='sm:max:text-2xl text-6xl text-[#fff] font-[PowerRegular] max-sm:text-3xl max-sm:pt-16' >Let's talk about a <br></br>project, collaboration or <br></br>an idea you may have</h1>

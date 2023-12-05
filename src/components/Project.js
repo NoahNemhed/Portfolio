@@ -24,7 +24,7 @@ const projectData = {
       image2: TunderImg2,
       description2: "Ultra OOH provides individually designed brand experience campaigns and guerrilla marketing as well as classic promotional campaigns.",
       website: "https://tunder.netlify.app",
-      techs: ['Next.js','TinaCMS', 'Tailwindcss'],
+      stack: ['Next.js ','TinaCMS ', 'Tailwindcss'],
     },
     facerecognition: {
       title: "Face detection",
@@ -35,7 +35,7 @@ const projectData = {
       image2: FaceDetectionImg2,
       description2: "User-friendly login and registration system, powered by the dynamic combination of Node.js and PostgreSQL. ",
       website: "https://main--face-detectorapp.netlify.app/",
-      techs: ['Next.js','TinaCMS', 'Tailwindcss'],
+      stack: ['React ','Nodejs ', 'PostgreSQL'],
     },
     // ... add more projects here
   };
@@ -71,8 +71,8 @@ const Project = () => {
 
                     <div>
 
-                        <div>
-                            <h1 className='text-9xl text-[#fff] font-[PowerRegular] xl:pt-40 max-lg:w-[350px] max-lg:text-8xl  max-xl:text-center max-sm:text-5xl max-sm:w-[400px] max-sm:pt-14' data-aos="fade-down" data-aos-delay="300" data-aos-once="true">{project.title}</h1>
+                        <div className='max-lg:flex max-lg:justify-center'>
+                            <h1 className='text-9xl text-[#fff] font-[PowerRegular] xl:pt-40 max-lg:w-[350px] max-lg:text-8xl  max-xl:text-center max-sm:text-5xl max-sm:w-[400px] max-sm:pt-14 ' data-aos="fade-down" data-aos-delay="300" data-aos-once="true">{project.title}</h1>
                         </div>
 
                         <div className='flex max-xl:flex-col xl:gap-x-16 max-xl:gap-8 max-xl:gap-y-2 max-xl:items-center'>
@@ -92,6 +92,14 @@ const Project = () => {
                                     </div>
                                     <img src={Vector} alt="" className='pt-8' />
                                 </div>
+                                <div className='flex-col pt-8'>
+                                    <div className='flex max-sm:flex-col xl:gap-x-48 max-lg:gap-x-36 max-xl:gap-x-24 max-xl:justify-center max-xl:text-left max-sm:text-center' >
+                                    <h1 className='text-[#fff] text-2xl font-[PowerRegular]' data-aos="fade-left" data-aos-delay="700" data-aos-once="true">Stack</h1>
+                                    <h1 className='text-[#fff] text-2xl font-[PowerRegular]' data-aos="fade-left" data-aos-delay="800" data-aos-once="true">{project.stack}</h1>
+                                    </div>
+                                    <img src={Vector} alt="" className='pt-8' />
+                                </div>
+
 
                             </div>
                         </div>
@@ -107,10 +115,10 @@ const Project = () => {
                 </section>
 
                 <section className='md:pt-12 max-xl:pl-4' >
-                    <div className='flex justify-evenly '>
+                    <div className='flex justify-evenly max-sm:pt-16 '>
                         <h1 className='text-[#d6d6d6] text-4xl font-[PowerUltraLight] max-w-[920px] max-sm:hidden' data-aos="fade-left" data-aos-delay="100" data-aos-once="true">{project.description2}</h1>
                         <div className='md:py-4 max-sm:mb-28'>
-                        <a href={project.website} className='flex gap-x-4 items-center w-[209px] pl-6 bg-white rounded-full p-2 h-[50px] text-[#070707]' data-aos="fade-left" data-aos-delay="300" data-aos-once="true">Visit Website <img src={Arrow2} alt="" /></a>
+                        <a href={project.website} className='flex gap-x-4 items-center w-[209px] pl-6 bg-white rounded-full p-2 h-[50px] text-[#070707]'>Visit Website <img src={Arrow2} alt="" /></a>
                         </div>
                         
                     </div>
