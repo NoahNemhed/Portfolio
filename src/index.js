@@ -18,11 +18,11 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/',
+        path: '', 
         element: <Home />,
       },
       {
-        path: 'about', // Remove the leading slash for relative paths
+        path: 'about', 
         element: <About />,
       },
       {
