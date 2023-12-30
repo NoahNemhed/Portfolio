@@ -2,6 +2,18 @@ import {useState} from "react";
 import Study from '../images/projects/study.png'
 export default function Experience() {
 
+    const [work, setWork] = useState({
+        "KONTRAST STUDIOS AB": {
+          url: "https://oasisinfobyte.com/",
+          position: "Frontend Development",
+          duration: "2023 November - Present",
+          content: [
+            "Building Tunder AB's website",
+            "This is an independent consultant job hired by KONTRAST STUDIOS AB.",
+          ]
+        },
+      });
+
 
 
     const [certifications, setCertifications] = useState({
@@ -20,6 +32,9 @@ export default function Experience() {
         }
       });
 
+      const [activeTab, setActiveTab] = useState(0);
+
+
 
 
     return (
@@ -29,14 +44,30 @@ export default function Experience() {
                     <span className={"accent mr-4 text-xl font-monospace"}>02.</span><span
                     className={"text-[22px] whitespace-nowrap slate font-Poppins font-[600]"}>Experience</span>
                 </div>
-                <p className={"dark-slate w-full mb-2 leading-7"}>
-                    As in 2024, I have about 3 years of experience in development.
-                    MERN being my initial stack, i've further have learn't TypeScript & Redux Toolkit.
-                </p>
-                <p className={"dark-slate w-full mb-4 leading-7"}>
-                    I've gained experience of fullstack by building web applications with variety of frameworks like React and Express in.<a/>
-                    
-                </p>
+                <div className={"flex items-center justify-center w-full  pb-8"}>
+                    <h3 className={"text-2xl slate font-[600]"}>Work</h3>
+                </div>
+
+                <div className={"p-2"}>
+                        {
+                            Object.keys(work).map((k, i) => {
+                                return <div className={`${activeTab === i ? "" : "hidden"}`}>
+                                    <div className={`font-Poppins text-xl mb-1 font-[500]`}>
+                                        <span className={"slate mr-2"}>{work[k].position}</span><a href={work[k].url}
+                                                                                                   className={"accent"}>@ {k}</a>
+                                    </div>
+                                    <span className={"slate text-sm font-monospace"}>{work[k].duration}</span>
+                                    <ul className={"flex flex-col bullet-list mt-4 slate-alt leading-6 text-sm "}>
+                                        {
+                                            Object.values(work[k].content).map((v) => <li className={"mb-2 text-justify"}>{v}</li>)
+                                        }
+                                    </ul>
+                                </div>
+                            })
+                        }
+                    </div>
+                
+                
                 <div className={"flex items-center justify-center w-full pt-28 pb-8"}>
                     <h3 className={"text-2xl slate font-[600]"}>Education & Certifications</h3>
                 </div>
