@@ -8,21 +8,34 @@ import { useEffect } from "react";
 export default function Home() {
     const container = useRef();
 
-
     useEffect(() => {
-        gsap.fromTo('.loading-page', { opacity: 1 }, { opacity: 0, duration: 1.5, delay: 2.5 });
-        gsap.to('.logo-name', {
+        const loadingPage = container.current;
+
+        gsap.fromTo(
+            loadingPage,
+            { opacity: 1 },
+            {
+                opacity: 0,
+                duration: 1.5,
+                delay: 2.5,
+                onComplete: () => {
+                    // Animation is complete, hide the loading page
+                    loadingPage.style.pointerEvents = "none";
+                },
+            }
+        );
+
+        gsap.to(".logo-name", {
             y: 0,
             stagger: 0.15,
             delay: 0.2,
-            duration: 0.1
+            duration: 0.1,
         });
-
-      }, []); 
+    }, []);
 
       
     return (
-        <div className={"flex flex-col h-full mb-24 justify-center max-w-[1000px] w-full relative"}>
+        <div className={"flex flex-col h-full mb-24 justify-center max-w-[1000px] w-full relative "}>
             <span className={"accent text-[14px] font-monospace mb-4"}>Hi, my name is</span>
             <h1 className={"text-6xl lg:text-7xl font-[600] slate mb-2"}>Noah Nemhed.</h1>
             <h2 className={"text-4xl md:text-5xl lg:text-7xl font-[600] opacity-60 slate tracking-tight"}>Frontend Developer</h2>
