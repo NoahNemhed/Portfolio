@@ -27,7 +27,7 @@ export default function Experience() {
             <div className={"flex flex-col text-left items-center max-w-[1000px] pt-16 pb-32 w-full"}>
                 <div className={"flex items-center w-full header-line pb-16"}>
                     <span className={"accent mr-4 text-xl font-monospace"}>02.</span><span
-                    className={"text-[22px] whitespace-nowrap slate font-Poppins font-[600]"}>Experience & Achievements</span>
+                    className={"text-[22px] whitespace-nowrap slate font-Poppins font-[600]"}>Experience</span>
                 </div>
                 <p className={"dark-slate w-full mb-2 leading-7"}>
                     As in 2024, I have about 3 years of experience in development.
