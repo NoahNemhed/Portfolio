@@ -21,6 +21,7 @@ export default function Home() {
                 onComplete: () => {
                     // Animation is complete, hide the loading page
                     loadingPage.style.pointerEvents = "none";
+                    loadingPage.style.visibility = "hidden";
                 },
             }
         );
