@@ -7,10 +7,10 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import Home from './views/Home';
-import Work from './views/Work';
-import Contact from './views/Contact';
-import About from './views/About';
-import Experience from './views/Experience';
+const Work = React.lazy(() => import('./views/Work'));
+const Contact = React.lazy(() => import('./views/Contact'));
+const About = React.lazy(() => import('./views/About'));
+const Experience = React.lazy(() => import('./views/Experience'));
 
 const router = createBrowserRouter([
   {
