@@ -1,8 +1,5 @@
 export default function FeaturedProject({image, title, description, tags, links}) {
     return (
-
-
-
 <div className="flex flex-col   ">
 
   <div className="max-sm:hidden">
@@ -21,8 +18,6 @@ export default function FeaturedProject({image, title, description, tags, links}
   </div>
   <img src={image} fetchpriority="high" decoding="async" className={`w-full  h-[300px] md:h-[400px] brightness-75 md:blur-0 drop-shadow-2xl `} alt="Project Image" />
   </div>
-
-  
 
 
 

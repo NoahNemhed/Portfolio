@@ -11,6 +11,13 @@ export default function Work() {
 
     const [projects, setProjects] = useState([
         {
+            name: "W2CPANDAREPS",
+            description: "I noticed a trend on TikTok where people were sharing Excel spreadsheets featuring products from Pandabuy. Seeing an opportunity,I created a script to collect and store product links and titles, changing the links to my affiliate URLs. Additionally, I fetched data from Pandabuy to enhance the product listings with details like sales, weight, and dimensions. The website attracts around 500 daily visitors. Part of the backend is available on my github.",
+            tags: ["React", "Redux", "Node", "Express"],
+            links: {"fab fa-github": "https://w2cpandareps.com/"},
+            image: Tba
+        },
+        {
             name: "Tunder",
             description: "Developed the website for Tunder AB, The website is supported by TinaCMS and Cloudinary, And its built with NextJS and TailwindCSS, embodying a modern and user-friendly approach.",
             tags: ["Next.js", "TinaCMS", "Cloudinary", "Tailwind"],
@@ -19,18 +26,11 @@ export default function Work() {
         },
         {
             name: "Face Detection",
-            description: "Developed a face detection as a part of webdevelopment course, application utilizing the Clarifai API. The project encompasses web development, backend development, and database management. The frontend is hosted on Netlify, while the backend and database are hosted on Render.",
-            tags: ["React", "Node.js", "Tailwind", "PostgreSQL"],
-            links: {"fas fa-external-link": "https://main--face-detectorapp.netlify.app/"},
+            description: `Developed a face detection as a part of webdevelopment course, application utilizing the Clarifai API. The project encompasses web development, backend development, and database management. Backend code available on my github`,
+            tags: ["React", "Node.js", "Express", "PostgreSQL"],
+            links: {"fas fa-external-link": "https://github.com/NoahNemhed/FaceDetectionApi"},
             image: FaceDetection
         },
-        {
-            name: "TBA",
-            description: "TBA",
-            tags: ["TBA", "TBA", "TBA", "TBA"],
-            links: {"fab fa-github": "https://github.com/NoahNemhed"},
-            image: Tba
-        }
     ])
 
     return (
