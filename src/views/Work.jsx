@@ -1,6 +1,6 @@
 import Tunder from "../images/projects/TunderImg1.png"
 import FaceDetection from "../images/projects/FaceDetectionImg1.png"
-import Tba from "../images/projects/TBAImg.jpg"
+import W2C from "../images/projects/W2C.png"
 import FeaturedProject from "../components/FeaturedProjects";
 import {useState} from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -15,7 +15,7 @@ export default function Work() {
             description: "I noticed a trend on TikTok where people were sharing Excel spreadsheets featuring products from Pandabuy. Seeing an opportunity,I created a script to collect and store product links and titles, changing the links to my affiliate URLs. Additionally, I fetched data from Pandabuy to enhance the product listings with details like sales, weight, and dimensions. The website attracts around 500 daily visitors. Part of the backend is available on my github.",
             tags: ["React", "Redux", "Node", "Express"],
             links: {"fab fa-github": "https://w2cpandareps.com/"},
-            image: Tba
+            image: W2C
         },
         {
             name: "Tunder",
@@ -26,7 +26,7 @@ export default function Work() {
         },
         {
             name: "Face Detection",
-            description: `Developed a face detection as a part of webdevelopment course, application utilizing the Clarifai API. The project encompasses web development, backend development, and database management. Backend code available on my github`,
+            description: `Developed a face detection as a part of webdevelopment course, application utilizing the Clarifai API. The project encompasses web development, backend development, and database management. !!!Not in production anymore!!! Backend code available on my github`,
             tags: ["React", "Node.js", "Express", "PostgreSQL"],
             links: {"fas fa-external-link": "https://github.com/NoahNemhed/FaceDetectionApi"},
             image: FaceDetection
