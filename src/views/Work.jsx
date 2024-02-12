@@ -40,16 +40,7 @@ export default function Work() {
             <span className="accent mr-4 text-xl font-monospace">03.</span>
             <h3 className="text-2xl whitespace-nowrap slate font-[600]">My Work</h3>
         </div>
-        <Splide 
-          options={ {
-            mediaQuery: 'min',
-            type : 'loop',
-            perMove: 1,
-            arrows: false,
-          } }
-          >
             {projects.map((p, i) => (
-            <SplideSlide key={i} >
                 <FeaturedProject
                 image={p.image}
                 title={p.name}
@@ -57,10 +48,8 @@ export default function Work() {
                 tags={p.tags}
                 links={p.links}
                 />
-            </SplideSlide>
             ))}
-            
-        </Splide>
+
         </div>
 
         </>
