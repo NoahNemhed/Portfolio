@@ -26,7 +26,7 @@ export default function Work() {
         },
         {
             name: "Face Detection",
-            description: `Developed a face detection as a part of webdevelopment course, application utilizing the Clarifai API. The project encompasses web development, backend development, and database management. !!!Not in production anymore!!! Backend code available on my github`,
+            description: `This project encompasses web development, backend development, and database management. Sadly its not in production anymore, But the backend code is available on my github`,
             tags: ["React", "Node.js", "Express", "PostgreSQL"],
             links: {"fab fa-github": "https://github.com/NoahNemhed/FaceDetectionApi"},
             image: FaceDetection
