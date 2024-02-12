@@ -53,8 +53,8 @@ export default function Experience() {
                             Object.keys(work).map((k, i) => {
                                 return <div className={`${activeTab === i ? "" : "hidden"}`}>
                                     <div className={`font-Poppins text-xl mb-1 font-[500]`}>
-                                        <span className={"slate mr-2"}>{work[k].position}</span><a href={work[k].url}
-                                                                                                   className={"accent"}>@ {k}</a>
+                                        <span className={"slate mr-2"}>{work[k].position}</span><div className={"accent"}>
+                                                                                                   @ {k}</div>
                                     </div>
                                     <span className={"slate text-sm font-monospace"}>{work[k].duration}</span>
                                     <ul className={"flex flex-col bullet-list mt-4 slate-alt leading-6 text-sm "}>
