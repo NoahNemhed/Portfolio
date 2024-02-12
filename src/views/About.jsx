@@ -10,7 +10,7 @@ export default function About() {
                 
                 </p>
                 <p className={"dark-slate w-full mb-4 leading-7"}>
-                Starting with creating simple Powershell and VBA scripts, I've progressed rapidly, expanding my skill set to include JavaScript, TypeScript, React, MongoDB, and numerous other tools. Currently, I am actively engaged in learning new frameworks and staying updated on emerging technologies.
+                Starting with creating simple Powershell and VBA scripts, I've progressed rapidly, expanding my skill set to include JavaScript, TypeScript, React, Node.js, and numerous other tools. Currently, I am actively engaged in learning new frameworks and staying updated on emerging technologies.
                 </p>
                 <p className={"dark-slate w-full mb-4 leading-7"}>
                 Thank you for visiting my portfolio page! If you have any questions or if there's something specific you'd like to know more about, feel free to reach out. I'm excited to share more of my creations and experiences with you. Thanks for being here!
@@ -23,7 +23,7 @@ export default function About() {
                     <li className="hover-accent">TypeScript</li>
                     <li className="hover-accent">React</li>
                     <li className="hover-accent">Node.js</li>
-                    <li className="hover-accent">Redux Toolkit</li>
+                    <li className="hover-accent">Redux RTK</li>
                     <li className="hover-accent">MongoDB</li>
                 </ul>
             </div>
