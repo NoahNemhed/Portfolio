@@ -4,9 +4,9 @@ export default function Experience() {
 
     const [work, setWork] = useState({
         "KONTRAST STUDIOS AB": {
-          url: "https://oasisinfobyte.com/",
+          url: "",
           position: "Frontend Development",
-          duration: "2023 November - Present",
+          duration: "2024 January - Present",
           content: [
             "Building Tunder AB's website",
             "This is an independent consultant job hired by KONTRAST STUDIOS AB.",
