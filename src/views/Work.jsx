@@ -12,9 +12,9 @@ export default function Work() {
     const [projects, setProjects] = useState([
         {
             name: "W2CPANDAREPS",
-            description: "I noticed a trend on TikTok where people were sharing Excel spreadsheets featuring products from Pandabuy. Seeing an opportunity,I created a script to collect and store product links and titles, changing the links to my affiliate URLs. Additionally, I fetched data from Pandabuy to enhance the product listings with details like sales, weight, and dimensions. The website attracts around 500 daily visitors. Part of the backend is available on my github.",
+            description: "I observed a TikTok trend wherein individuals shared Excel spreadsheets showcasing products from Pandabuy. Recognizing a potential opportunity, I developed a script to gather and save product links and titles, substituting the links with my affiliate URLs. Moreover, I extracted data from Pandabuy to enrich the product listings with additional details such as sales figures, weight, and dimensions. The website reach's approximately 250 daily visitors, A portion of the backend code is accessible on my GitHub repository.",
             tags: ["React", "Redux", "Node", "Express"],
-            links: {"fab fa-github": "https://w2cpandareps.com/"},
+            links: {"fas fa-external-link": "https://w2cpandareps.com/"},
             image: W2C
         },
         {
@@ -28,7 +28,7 @@ export default function Work() {
             name: "Face Detection",
             description: `Developed a face detection as a part of webdevelopment course, application utilizing the Clarifai API. The project encompasses web development, backend development, and database management. !!!Not in production anymore!!! Backend code available on my github`,
             tags: ["React", "Node.js", "Express", "PostgreSQL"],
-            links: {"fas fa-external-link": "https://github.com/NoahNemhed/FaceDetectionApi"},
+            links: {"fab fa-github": "https://github.com/NoahNemhed/FaceDetectionApi"},
             image: FaceDetection
         },
     ])
