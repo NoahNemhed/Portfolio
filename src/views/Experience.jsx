@@ -9,7 +9,7 @@ export default function Experience() {
           duration: "2023 November - 2024 January",
           content: [
             "Building Doldadress website",
-            "This is an independent consultant job hired by Doldadress",
+            "This was an independent consultant job hired by Doldadress",
           ]
         },
       });
