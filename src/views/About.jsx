@@ -20,7 +20,7 @@ export default function About() {
                 </p>
                 <ul className={"dark-slate font-monospace text-[14px] grid grid-cols-2 gap-2 bullet-list w-full "}>
                     <li className="hover-accent">JavaScript</li>
-                    <li className="hover-accent">TypeScript</li>
+                    <li className="hover-accent">Next.js</li>
                     <li className="hover-accent">React</li>
                     <li className="hover-accent">Node.js</li>
                     <li className="hover-accent">Redux RTK</li>

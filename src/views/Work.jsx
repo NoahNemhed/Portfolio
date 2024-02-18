@@ -15,7 +15,7 @@ export default function Work() {
             name: "Doldadress",
             description: `Developed the website for Doldadress, The website is supported by TinaCMS and Cloudinary, And its built with NextJS and TailwindCSS, embodying a modern and user-friendly approach.`,
             tags: ["Next.js", "TinaCMS", "Cloudinary", "Tailwind"],
-            links: {"fab fa-external-link": "https://www.doldadress.se/"},
+            links: {"fas fa-external-link": "https://www.doldadress.se/"},
             image: Doldadress
         },
         {
