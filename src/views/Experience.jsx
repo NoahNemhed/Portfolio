@@ -3,13 +3,13 @@ import Study from '../images/projects/study.png'
 export default function Experience() {
 
     const [work, setWork] = useState({
-        "KONTRAST STUDIOS AB": {
-          url: "",
+        "Doldadress": {
+          url: "https://www.doldadress.se/",
           position: "Frontend Development",
-          duration: "2024 January - Present",
+          duration: "2023 November - 2024 January",
           content: [
-            "Building Tunder AB's website",
-            "This is an independent consultant job hired by KONTRAST STUDIOS AB.",
+            "Building Doldadress website",
+            "This is an independent consultant job hired by Doldadress",
           ]
         },
       });

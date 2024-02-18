@@ -56,7 +56,7 @@ export default function Home() {
 
 
                 <div className="name-container">
-                    <div  id="logo-name" className="logo-name text-6xl lg:text-7xl font-[600]  mb-2 text-center pt-4 slate ">Noah Nemhed</div>
+                    <div  id="logo-name" className="logo-name text-6xl lg:text-7xl font-[600]  mb-2 text-center pt-4 slate "></div>
                 </div>
 
             </div>

@@ -2,6 +2,7 @@ import Tunder from "../images/projects/TunderImg1.png"
 import FaceDetection from "../images/projects/FaceDetectionImg1.png"
 import W2C from "../images/projects/W2C.png"
 import FeaturedProject from "../components/FeaturedProjects";
+import Doldadress from '../images/projects/Doldadress.png'
 import {useState} from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
@@ -11,6 +12,13 @@ export default function Work() {
 
     const [projects, setProjects] = useState([
         {
+            name: "Doldadress",
+            description: `Developed the website for Doldadress, The website is supported by TinaCMS and Cloudinary, And its built with NextJS and TailwindCSS, embodying a modern and user-friendly approach.`,
+            tags: ["Next.js", "TinaCMS", "Cloudinary", "Tailwind"],
+            links: {"fab fa-external-link": "https://www.doldadress.se/"},
+            image: Doldadress
+        },
+        {
             name: "W2CPANDAREPS",
             description: "I observed a TikTok trend wherein individuals shared Excel spreadsheets showcasing products from Pandabuy. Recognizing a potential opportunity, I developed a script to gather and save product links and titles, substituting the links with my affiliate URLs. Moreover, I extracted data from Pandabuy to enrich the product listings with additional details such as sales figures, weight, and dimensions. The website reach's approximately 250 daily visitors, A portion of the backend code is accessible on my GitHub repository.",
             tags: ["React", "Redux", "Node", "Express"],
@@ -19,7 +27,7 @@ export default function Work() {
         },
         {
             name: "Tunder",
-            description: "Developed the website for Tunder AB, The website is supported by TinaCMS and Cloudinary, And its built with NextJS and TailwindCSS, embodying a modern and user-friendly approach.",
+            description: "Developed a fictive website called Tunder, The website is supported by TinaCMS and Cloudinary, And its built with NextJS and TailwindCSS, embodying a modern and user-friendly approach.",
             tags: ["Next.js", "TinaCMS", "Cloudinary", "Tailwind"],
             links: {"fas fa-external-link": "https://tunder.netlify.app/"},
             image: Tunder
