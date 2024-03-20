@@ -6,10 +6,10 @@ export default function Experience() {
         "Doldadress": {
           url: "https://www.doldadress.se/",
           position: "Frontend Development",
-          duration: "2023 November - 2024 January",
+          duration: "2023 November - 2024 Present",
           content: [
             "Building Doldadress website",
-            "This was an independent consultant job hired by Doldadress",
+            "This is an independent consultant job hired by Doldadress",
           ]
         },
       });

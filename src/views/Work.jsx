@@ -13,8 +13,8 @@ export default function Work() {
     const [projects, setProjects] = useState([
         {
             name: "Doldadress",
-            description: `Developed the website for Doldadress, The website is supported by TinaCMS and Cloudinary, And its built with NextJS and TailwindCSS, embodying a modern and user-friendly approach.`,
-            tags: ["Next.js", "TinaCMS", "Cloudinary", "Tailwind"],
+            description: `Assisted with the development of doldadress.se, mainly focusing on frontend which is built with Next.js & Typescript`,
+            tags: ["Next.js", "TinaCMS", "Typescript"],
             links: {"fas fa-external-link": "https://www.doldadress.se/"},
             image: Doldadress
         },
