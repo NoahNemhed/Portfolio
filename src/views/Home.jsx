@@ -16,7 +16,7 @@ export default function Home() {
             { opacity: 1 },
             {
                 opacity: 0,
-                duration: 1.5,
+                duration: 2,
                 delay: 2.5,
                 onComplete: () => {
                     // Animation is complete, hide the loading page
@@ -28,7 +28,7 @@ export default function Home() {
 
         gsap.to(".logo-name", {
             y: 0,
-            stagger: 0.15,
+            stagger: 0.25,
             delay: 0.2,
             duration: 0.1,
         });
@@ -36,7 +36,7 @@ export default function Home() {
 
       
     return (
-        <div className={"flex flex-col h-full mb-24 justify-center max-w-[1000px] w-full relative "}>
+        <div className={"flex flex-col h-full xl:mb-[363px] max-xl:mb-[155px] justify-center  mx-auto max-sm:mt-40 sm:mt-64 w-full relative sm:max-xl:max-w-[768px] max-sm:w-full max-sm:px-[15px] sm:max-xl:px-[30px] xl:max-w-[1000px]   "}>
             <span className={"accent text-[14px] font-monospace mb-4"}>Hi, my name is</span>
             <h1 className={"text-6xl lg:text-7xl font-[600] slate mb-2"}>Noah Nemhed.</h1>
             <h2 className={"text-4xl md:text-5xl lg:text-7xl font-[600] opacity-60 slate tracking-tight"}>Frontend Developer</h2>
@@ -45,7 +45,7 @@ export default function Home() {
             impeccable Web Design. By doing so, they can enhance brand
             recognition and drive greater sales.
             </p>
-            <a href={"/work"} className={"accent md:w-fit w-full hover-btn cursor-pointer text-[14px] hover-accent accent-border border rounded font-monospace p-4 px-6 mt-4"}>
+            <a href={"#work-section"} className={"accent md:w-fit w-full hover-btn cursor-pointer text-[14px] hover-accent accent-border border rounded font-monospace p-4 px-6 mt-4"}>
                 Check out my work!
             </a>
 

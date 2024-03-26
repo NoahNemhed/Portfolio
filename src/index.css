@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .test {
-  color: #FFA500
+  color: #ffa500;
 }
 body {
   margin: 0;
@@ -11,6 +11,7 @@ body {
   width: 100vw;
   color: white;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -28,8 +29,8 @@ body {
   border-radius: 4px;
 }
 
-
-i, a {
+i,
+a {
   transition: all 0.3s ease;
 }
 #root {
@@ -44,10 +45,10 @@ i, a {
 }
 
 .accent {
-  color: #FFA500
+  color: #ffa500;
 }
 .accent-border {
-  border-color: #FFA500
+  border-color: #ffa500;
 }
 .slate {
   color: #ccd6f6;
@@ -59,7 +60,7 @@ i, a {
   color: #a8b2d1;
 }
 .hover-accent:hover {
-  color: #FFA500;
+  color: #ffa500;
   opacity: 100%;
 }
 .p-img {
@@ -67,7 +68,6 @@ i, a {
 }
 .hover-btn:hover {
   background: #0a192f;
-  
 }
 .hover-displace:hover {
   translate: 0 -4px;
@@ -112,7 +112,7 @@ i, a {
   content: "▹";
   position: absolute;
   left: 0;
-  color: #FFA500;
+  color: #ffa500;
 }
 .work-list li {
   white-space: nowrap;
@@ -121,8 +121,9 @@ i, a {
 .work-list::-webkit-scrollbar {
   height: 4px;
 }
-.work-list li:hover, .cert-list li:hover {
-  color: #FFA500;
+.work-list li:hover,
+.cert-list li:hover {
+  color: #ffa500;
   background: #112240;
 }
 .cert-list li > a {
@@ -130,20 +131,26 @@ i, a {
   align-items: center;
 }
 .active-item {
-  color: #FFA500;
+  color: #ffa500;
   background: #112240;
-  border-color: #FFA500!important;
+  border-color: #ffa500 !important;
 }
 p > a {
-  color: #FFA500;
+  color: #ffa500;
 }
 .ghost-white {
   color: ghostwhite;
 }
-p, ul {
+p,
+ul {
   font-family: Inter, sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Poppins, sans-serif;
 }
 .text-right {
@@ -153,11 +160,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
-
-
 /* Loading page Animation */
 
-.loading-page{
+.loading-page {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,23 +173,21 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   padding-top: 10%;
-  
 }
 
-
-.neos{
+.neos {
   height: 150px;
   width: 150px;
-  stroke: #FFA500;
+  stroke: #ffa500;
   stroke-width: 3px;
   fill-opacity: 0;
   stroke-dasharray: 4500;
-  animation: draw 7s ease;
+  animation: draw 5s ease;
 }
 
-.logo-name{
+.logo-name {
   transform: translateY(555px);
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 @keyframes draw {

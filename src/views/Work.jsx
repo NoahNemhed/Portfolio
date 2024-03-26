@@ -4,11 +4,8 @@ import W2C from "../images/projects/W2C.png"
 import FeaturedProject from "../components/FeaturedProjects";
 import Doldadress from '../images/projects/Doldadress.png'
 import {useState} from "react";
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css';
-import '@splidejs/react-splide/css/skyblue';
-import '@splidejs/react-splide/css/sea-green';
 export default function Work() {
+
 
     const [projects, setProjects] = useState([
         {
@@ -43,8 +40,8 @@ export default function Work() {
 
     return (
         <>
-        <div className="  items-center max-w-[1000px] pt-16 pb-32 w-full">
-        <div className="flex items-center w-full header-line pb-16">
+        <div  id="work-section" className=" sm:max-xl:max-w-[768px] max-sm:w-full max-sm:px-[15px] sm:max-xl:px-[30px] xl:max-w-[1000px]  items-center  w-full mx-auto">
+        <div className="flex items-center w-full header-line pb-8">
             <span className="accent mr-4 text-xl font-monospace">03.</span>
             <h3 className="text-2xl whitespace-nowrap slate font-[600]">My Work</h3>
         </div>
@@ -55,6 +52,7 @@ export default function Work() {
                 description={p.description}
                 tags={p.tags}
                 links={p.links}
+                orientation={i % 2 === 0 ? 1 : 0}
                 />
             ))}
 
